@@ -4,13 +4,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const NavBar = () => {
     return (
         <div className="navbar-fixed">
-            <ul id="dropdown1" className="dropdown-content">
-                <li><a className="black-text" href="#project1">1. 98ish</a></li>
-                <li><a className="black-text" href="#project2">2. Chit Chat</a></li>
-                <li><a className="black-text" href="#project3">3. Baseline Today</a></li>
-                <li><a className="black-text" href="#project4">4. Project Manager</a></li>
-                <li><a className="black-text" href="#project5">5. Vinyl Countdown</a></li>
-                <li><a className="black-text" href="#project6">6. Private Wall</a></li>
+            <ul id="dropdown1" className="dropdown-content grey darken-3">
+                <li><a className="white-text" href="#project1">1. 98ish</a></li>
+                <li><a className="white-text" href="#project2">2. Chit Chat</a></li>
+                <li><a className="white-text" href="#project3">3. Baseline Today</a></li>
+                <li><a className="white-text" href="#project4">4. Project Manager</a></li>
+                <li><a className="white-text" href="#project5">5. Vinyl Countdown</a></li>
+                <li><a className="white-text" href="#project6">6. Private Wall</a></li>
             </ul>
             <nav>
                 <div className="nav-wrapper black" >

@@ -2,7 +2,7 @@ import React from 'react'
 import Animation from './Animation.jsx'
 const About2 = () => {
     return (
-        <div class='full-container blue-container'>
+        <div class='full-container blue-container darken-2'>
               <div style={{flexWrap: "wrap"}} className="row valign-wrapper">
                 <div className="col s12 m6 push-m6">
                 <h4 className="center-align white-text">My Introduction to Software Engineering</h4>

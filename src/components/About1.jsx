@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import $ from 'jquery'
-import carouselPic1 from '../assets/images/code.png'
-import carouselPic2 from '../assets/images/98ish.png'
-import carouselPic3 from '../assets/images/pickleball.png'
+import carouselPic1 from '../assets/images/about/code.png'
+import carouselPic2 from '../assets/images/about/98ish.png'
+import carouselPic3 from '../assets/images/about/pickleball.png'
 
 const About1 = () => {
     useEffect(() => {
@@ -31,7 +31,7 @@ const About1 = () => {
     }, [])
 
     return (
-        <div id='about' className="full-container scrollspy black">
+        <div id='about' className="full-container scrollspy grey darken-4">
             <div style={{flexWrap: "wrap", marginBottom: 0}} className="row valign-wrapper">
                 <div className="col s12 m6 white-text">
                     <h3 className="center-align" style={{marginTop: 0}}>Hi, I'm Brandon.</h3>
