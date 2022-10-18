@@ -19,10 +19,10 @@ const Projects = () => {
                         </div>
                         <p>A simulated operating system/desktop experience done with React.js</p>
                         <ul style={{ padding: "4vh 0" }}>
-                            <li>• Leveraged React virtual DOM and stateful components to design, build, and maintain a modern and effective web experience</li>
-                            <li>• Implemented useReducer hook to manage complex state of desktop windows, resulting in robust, scalable, and flexible system</li>
+                            <li>• Leveraged React virtual DOM and reusable components to design, build, and maintain a robust, performant, and scalable system</li>
+                            <li>• Implemented advanced hooks to manage complex window state, enabling concurrent processes and effective web experience</li>
                             <li>• Integrated multiple technologies and data sources through various web API's (Socket.IO, YouTube Data v3)</li>
-                            <li>• Collaborated with one other developer (team of two), practicing Git Feature Branch workflow and AGILE approach to develop project rapidly, flexibly, and iteratively</li>
+                            <li>• Collaborated with one other developer (team of two), practicing Git Feature Branch workflow and AGILE approach for rapid, flexible, and iterative development</li>
                             <li>• Deployed application to web securely and affordably via Amazon cloud-computing services (AWS EC2)</li>
                         </ul>
                         <div className='row center-align'>
@@ -54,8 +54,11 @@ const Projects = () => {
                         </div>
                         <p>Instant messaging application using Spring Boot and WebSocket API</p>
                         <ul style={{ padding: "4vh 0" }}>
-                            <li>• </li>
-                            <li>• </li>
+                            <li>• Maintained ownership of front-end, interfacing and collaborating cross-functionally to consistently build new product features</li>
+                            <li>• Developed UI with best practices and cross-browser testing tools for platform-independent, responsive website</li>
+                            <li>• Implemented custom styling (media queries, keyframes, flexbox, filters) and integrated multiple technologies (jQuery, Velocity.js) to produce modern and effective web experience</li>
+                            <li>• Drove innovation through rapid prototyping, prioritized tasks, and consistent code and design reviews</li>
+                            <li>• Utilized Chrome DevTools profiler (CPU and CSS selector profiles) to effectively measure and optimize project performance</li>
                         </ul>
                         <div className='row center-align'>
                             <div className='col s4'>
@@ -84,10 +87,12 @@ const Projects = () => {
                         <div div id='project3' className="scrollspy">
                             <h4 className="green-text text-lighten-2">Baseline Today - Professional Tennis Forum</h4>
                         </div>
-                        <p>Forum for tennis enthusiasts to share discussion and receive latest updates on professional tennis circuit</p>
+                        <p>Full stack forum for tennis enthusiasts to share discussion and receive latest updates on professional tennis circuit</p>
                         <ul style={{ padding: "4vh 0" }}>
-                            <li>• </li>
-                            <li>• </li>
+                            <li>• Leveraged Flask modularized, micro-framework pattern to develop lightweight, high-performance, and scalable infrastructure</li>
+                            <li>• Designed full CRUD system for managing persistent data elements of relational database and varying relational models</li>
+                            <li>• Implemented object-oriented design to produce maintainable, reusable, and modifiable components with clearly defined interfaces, resulting in faster and more organized development</li>
+                            <li>• Engineered custom algorithm to insert over 900 image paths into respective player profiles through Python built-in os module</li>
                         </ul>
                         <div className='row center-align'>
                             <div className='col s4'>
