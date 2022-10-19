@@ -3,6 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import project1 from '../assets/images/projects/98ish.gif'
 import project2 from '../assets/images/projects/chitchat.gif'
+import project3 from '../assets/images/projects/baseline.gif'
+import project4 from '../assets/images/projects/projectmanager.gif'
+import project5 from '../assets/images/projects/vinyl.gif'
 
 const Projects = () => {
     return (
@@ -31,7 +34,7 @@ const Projects = () => {
                                 <h6 className="hide-on-large-only">Website</h6>
                             </div>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='http://youtube.com/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="white" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='https://www.youtube.com/watch?v=IIdlh5DVxD0&ab_channel=BrandonTaylor' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="white" /></a>
                                 <h6 className="hide-on-large-only">Video</h6>
                             </div>
                             <div className='col s4'>
@@ -66,7 +69,7 @@ const Projects = () => {
                                 <h6 className="hide-on-large-only">Website</h6>
                             </div>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='http://youtube.com/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="white" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='https://www.youtube.com/watch?v=DuhOW_mVuh0' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="white" /></a>
                                 <h6 className="hide-on-large-only">Video</h6>
                             </div>
                             <div className='col s4'>
@@ -96,11 +99,7 @@ const Projects = () => {
                         </ul>
                         <div className='row center-align'>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Website" href='https://github.com/brandontaylor156/baseline-today' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='external-link-alt' size="4x" color="white" /></a>
-                                <h6 className="hide-on-large-only">Website</h6>
-                            </div>
-                            <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='http://youtube.com/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="white" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='https://www.youtube.com/watch?v=-epCZqByyrY' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="white" /></a>
                                 <h6 className="hide-on-large-only">Video</h6>
                             </div>
                             <div className='col s4'>
@@ -110,7 +109,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col s12 m6 center-align">
-                        <img className="proj-gif" src="" alt='Project GIF' />
+                        <img className="proj-gif" src={project3} alt='Project GIF' />
                     </div>
                 </div>
 
@@ -121,15 +120,14 @@ const Projects = () => {
                         <div div id='project4' className="scrollspy">
                             <h4 className="teal-text text-darken-1">Project Manager with Java</h4>
                         </div>
-                        <p>Project manager description</p>
+                        <p>Full CRUD management system for tracking project progress and tasks</p>
                         <ul style={{ padding: "4vh 0" }}>
-                            <li>• </li>
-                            <li>• </li>
-                            <li>• </li>
+                            <li>• Built with Java, Spring Boot, MySQL</li>
+                            <li>• Employs many-to-many and multiple one-to-many relationships</li>
                         </ul>
                         <div className='row center-align'>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='http://youtube.com/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="white" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='https://www.youtube.com/watch?v=I7NDLPwjQcY' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="white" /></a>
                                 <h6 className="hide-on-large-only">Video</h6>
                             </div>
                             <div className='col s4'>
@@ -139,7 +137,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col s12 m6 center-align">
-                        <img className="proj-gif" src="" alt='Project GIF' />
+                        <img className="proj-gif" src={project4} alt='Project GIF' />
                     </div>
                 </div>
 
@@ -150,13 +148,13 @@ const Projects = () => {
                         <div div id='project5' className="scrollspy">
                             <h4 className="red-text text-darken-4">Vinyl Countdown - Full Stack MERN</h4>
                         </div>
-                        <p>vinyl countdown description</p>
+                        <p>Single-page, full CRUD song tracking application for adding your favorite tunes.</p>
                         <ul style={{ padding: "4vh 0" }}>
-                            <li>• </li>
+                            <li>• Built with React, Express, Node, and MongoDB</li>
                         </ul>
                         <div className='row center-align'>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='http://youtube.com/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="white" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='https://www.youtube.com/watch?v=XdxNn9_zy_Y' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="white" /></a>
                                 <h6 className="hide-on-large-only">Video</h6>
                             </div>
                             <div className='col s4'>
@@ -166,11 +164,11 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col s12 m6 center-align">
-                        <img className="proj-gif" src="" alt='Project GIF' />
+                        <img className="proj-gif" src={project5} alt='Project GIF' />
                     </div>
                 </div>
 
-                <div className="divider grey darken-1"></div>
+                {/* <div className="divider grey darken-1"></div>
 
                 <div style={{flexWrap: "wrap"}} className="row valign-wrapper">
                     <div className="col s12 m6 white-text">
@@ -195,7 +193,7 @@ const Projects = () => {
                     <div className="col s12 m6 center-align">
                         <img style={{height: "300px", width: "auto", border: "1px solid gray"}} className="proj-gif" src="" alt='Project GIF' />
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

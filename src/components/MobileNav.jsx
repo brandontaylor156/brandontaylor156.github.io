@@ -18,7 +18,7 @@ const MobileNav = () => {
                                     <li><a href="#project3" className="white-text" style={{padding: "0 48px"}}>3. Baseline Today</a></li>
                                     <li><a href="#project4" className="white-text" style={{padding: "0 48px"}}>4. Project Manager</a></li>
                                     <li><a href="#project5" className="white-text" style={{padding: "0 48px"}}>5. Vinyl Countdown</a></li>
-                                    <li><a href="#project6" className="white-text" style={{padding: "0 48px"}}>6. Private Wall</a></li>
+                                    {/* <li><a href="#project6" className="white-text" style={{padding: "0 48px"}}>6. Private Wall</a></li> */}
                                 </ul>
                             </div>
                         </li>

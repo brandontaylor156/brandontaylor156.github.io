@@ -10,7 +10,7 @@ const NavBar = () => {
                 <li><a className="white-text" href="#project3">3. Baseline Today</a></li>
                 <li><a className="white-text" href="#project4">4. Project Manager</a></li>
                 <li><a className="white-text" href="#project5">5. Vinyl Countdown</a></li>
-                <li><a className="white-text" href="#project6">6. Private Wall</a></li>
+                {/* <li><a className="white-text" href="#project6">6. Private Wall</a></li> */}
             </ul>
             <nav>
                 <div className="nav-wrapper black" >
